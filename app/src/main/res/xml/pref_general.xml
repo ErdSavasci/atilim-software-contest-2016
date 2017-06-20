@@ -1,0 +1,60 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="switch_mute"
+        android:summary="@string/pref_description_switch_mute"
+        android:title="@string/pref_title_switch_mute" />
+
+    <ListPreference
+        android:key="list_time_before_silence"
+        android:defaultValue="4"
+        android:dependency="switch_mute"
+        android:title="@string/pref_title_list_time_before_silence"
+        android:entries="@array/pref_list_time_before_silence_entries"
+        android:entryValues="@array/pref_list_time_before_silence_values"
+        android:summary="@string/pref_description_list_time_before_silence"/>
+
+    <!-- NOTE: Hide buttons to simplify the UI. Users can touch outside the dialog to
+         dismiss it. -->
+    <!-- NOTE: ListPreference's summary should be set to its value by the activity code. -->
+    <ListPreference
+        android:defaultValue="0"
+        android:entries="@array/pref_list_departments_entries"
+        android:entryValues="@array/pref_list_departments_values"
+        android:key="list_departments"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_title_list_departments"
+        android:summary="@string/pref_summary_list_departments"/>
+
+    <Preference
+        android:key="start_hour_minute"
+        android:title="@string/pref_title_hour_minute_selector"
+        android:summary="@string/pref_description_hour_minute_selector"/>
+
+    <ListPreference
+        android:key="list_lesson_per_day"
+        android:defaultValue="8"
+        android:entries="@array/pref_list_lesson_per_day_entries"
+        android:entryValues="@array/pref_list_lesson_per_day_values"
+        android:title="@string/pref_title_list_lesson_per_day"
+        android:summary="@string/pref_description_list_lesson_per_day"/>
+
+    <ListPreference
+        android:key="list_break_time"
+        android:defaultValue="2"
+        android:title="@string/pref_title_list_break_time"
+        android:entries="@array/pref_list_break_time_entries"
+        android:entryValues="@array/pref_list_break_time_values"
+        android:summary="@string/pref_description_list_break_time"/>
+
+    <ListPreference
+        android:key="list_lesson_length"
+        android:defaultValue="9"
+        android:title="@string/pref_title_list_lesson_length"
+        android:entries="@array/pref_list_lesson_length_entries"
+        android:entryValues="@array/pref_list_lesson_length_values"
+        android:summary="@string/pref_description_list_lesson_length"/>
+
+</PreferenceScreen>

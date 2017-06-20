@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/nDrawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="3dp"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:paddingTop="3dp"
+        android:id="@+id/relativeLayout"
+        tools:context="com.ue.smarttimetable.MainActivity">
+
+        <GridView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/gridView"
+            android:numColumns="6"
+            android:stretchMode="columnWidth"
+            android:columnWidth="35dp"
+            android:horizontalSpacing="3dp"
+            android:verticalSpacing="3dp"
+            android:choiceMode="singleChoice"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_above="@+id/frameLayout"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:smoothScrollbar="false" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/frameLayout"
+            android:layout_alignParentBottom="true"
+            android:layout_alignRight="@+id/gridView"
+            android:layout_alignEnd="@+id/gridView"
+            android:layout_alignLeft="@+id/gridView"
+            android:layout_alignStart="@+id/gridView"
+            android:background="#0060ba">
+
+            <ImageButton
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:id="@+id/imgButtonMenu"
+                android:src="@drawable/settings"
+                android:layout_gravity="right|center_vertical"
+                android:contentDescription="@string/imgButtonDescription"
+                android:background="#0060ba"
+                android:scaleType="center" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imgRemoveView"
+                android:src="@drawable/remove"
+                android:background="#0060ba"
+                android:contentDescription="@string/imgViewDescription"
+                android:layout_gravity="center" />
+        </FrameLayout>
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/nDListView"
+        android:layout_width="170dp"
+        android:layout_height="match_parent"
+        android:choiceMode="singleChoice"
+        android:dividerHeight="10dp"
+        android:divider="#0060ba"
+        android:layout_gravity="start"
+        android:background="#0060ba" />
+
+</android.support.v4.widget.DrawerLayout>
