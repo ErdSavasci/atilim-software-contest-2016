@@ -1,0 +1,218 @@
+<resources>
+    <string name="app_name">Smart Timetable</string>
+    <string name="imgButtonDescription">ImageButton</string>
+    <string name="imgViewDescription">ImageView</string>
+    <string name="txtViewDescription">TextView</string>
+    <string name="day_time">Time/\nDay</string>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="lesson1">09.30\n–\n10.20</string>
+    <string name="lesson2">10.30\n–\n11.20</string>
+    <string name="lesson3">11.30\n–\n12.20</string>
+    <string name="lesson4">12.30\n–\n13.20</string>
+    <string name="lesson5">13.30\n–\n14.20</string>
+    <string name="lesson6">14.30\n–\n15.20</string>
+    <string name="lesson7">15.30\n–\n16.20</string>
+    <string name="lesson8">16.30\n–\n17.20</string>
+    <string name="lesson9">17.30\n–\n18.20</string>
+    <string name="nDrawerHeaderText">Courses</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_course_name">Course Name</string>
+    <string name="title_course_start_time">Course Start Time</string>
+    <string name="title_course_finish_time">Course Finish Time</string>
+    <string name="btnCourseInfoSave">Save</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_switch_mute">Mute Device in Lesson Start</string>
+    <string name="pref_description_switch_mute">Enable this to mute your device when a lesson is started</string>
+
+    <string name="pref_title_list_departments">Select Department</string>
+    <string-array name="pref_list_departments_entries">
+        <item>COMPE</item>
+        <item>ISE</item>
+        <item>EE</item>
+        <item>IE</item>
+        <item>ENE</item>
+        <item>MFGE</item>
+        <item>CE</item>
+        <item>CEAC</item>
+        <item>ME</item>
+        <item>MATE</item>
+        <item>MECE</item>
+        <item>AE</item>
+        <item>SE</item>
+        <item>LAW</item>
+    </string-array>
+    <string-array name="pref_list_departments_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+    </string-array>
+
+    <string name="pref_title_hour_minute_selector">Start Time</string>
+    <string name="pref_description_hour_minute_selector">Select start time for your courses</string>
+
+    <string name="pref_title_list_lesson_per_day">Total Lesson Count</string>
+    <string name="pref_description_list_lesson_per_day">Select total count of your lessons per day</string>
+    <string-array name="pref_list_lesson_per_day_entries">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+    </string-array>
+    <string-array name="pref_list_lesson_per_day_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+    </string-array>
+
+    <string name="pref_title_list_break_time">Break time</string>
+    <string name="pref_description_list_break_time">Select break time between your lessons</string>
+    <string-array name="pref_list_break_time_entries">
+        <item>0</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>35</item>
+        <item>40</item>
+        <item>45</item>
+        <item>50</item>
+        <item>55</item>
+        <item>60</item>
+    </string-array>
+    <string-array name="pref_list_break_time_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+
+    <string name="pref_title_list_lesson_length">Lesson Length</string>
+    <string name="pref_description_list_lesson_length">Select the length of lessons</string>
+    <string-array name="pref_list_lesson_length_entries">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>35</item>
+        <item>40</item>
+        <item>45</item>
+        <item>50</item>
+        <item>55</item>
+        <item>60</item>
+    </string-array>
+    <string-array name="pref_list_lesson_length_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </string-array>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_summary_list_departments">COMPE</string>
+
+    <string name="pref_title_list_time_before_silence">Time before the Silent mode</string>
+    <string-array name="pref_list_time_before_silence_entries">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>20</item>
+    </string-array>
+    <string-array name="pref_list_time_before_silence_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+    </string-array>
+    <string name="pref_description_list_time_before_silence">Select the time before the device will be set to Silent mode</string>
+
+</resources>
